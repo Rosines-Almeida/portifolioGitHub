@@ -1,0 +1,14 @@
+.img{
+    height: 50px;
+    width: 60px;
+};
+
+.block{
+    background-color: aquamarine;
+display: block
+};
+
+.none{
+   
+    display: none
+}

@@ -3,8 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Header from "./components/header/Header"
+import Main from "./components/main/main"
+import Routes from "./rotas/Routes"
+// import Search from "../src/components/search/Search"
+// import User from "../src/components/user/User"
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<React.Fragment>
+<Header />
+<Routes></Routes>
+ {/* <Main valor="notificar" />  */}
+
+</React.Fragment>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
