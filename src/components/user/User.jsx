@@ -2,7 +2,8 @@ import React from 'react';
 import "./User.css"
 import { Link } from "react-router-dom";
 import Logo2 from "../../assets/Octocat.png"
-import formatarData from "../../util"
+import {formatarData , validarDados }from "../../util"
+
 
 const User = (props) =>
 
@@ -29,7 +30,8 @@ const User = (props) =>
  
 
    <div  style={{ display: props.user.length === 0 ? "none" : "block" }}>
-<div className="card-group row col-6 d-flex justify-content-center">
+     <div className="row d-flex justify-content-center">
+<div className="card-group row col-6 ">
   <img className="card  img-user" src={props.user.avatar_url} alt="Imagem de capa do card"/>
     
   
@@ -41,15 +43,20 @@ const User = (props) =>
       <p>Repositorios <strong> {props.user.public_repos}</strong></p>
         <p>Seguidores <strong>{props.user.following}</strong></p>
         <p>Seguindo <strong>{props.user.followers}</strong></p>
+        <p>  <strong>{props.user.company}</strong></p>
+    <a href={props.user.blog}> {props.user.blog}</a>
+        <p>  <strong>{props.user.location}</strong></p>
         <p>Última atualização <strong>{formatarData(props.user.updated_at)}</strong></p>
-      <p className="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-      <button> 
-<Link to={`/repositorios/${props.user.login}/`} > Conheça os projetos </Link>
-   
+    
+      <button className={validarDados(props.user.public_repos)? 'disable': 'active'}> 
+<Link to={validarDados(props.user.public_repos) ?
+  `/#` : `/repositorios/${props.user.login}/`} className={validarDados(props.user.public_repos)? 'disable': 'active'}> Conheça os projetos </Link>
+ 
 </button>
     </div>
   </div>
  
+</div>
 </div>
   </div>
   </div>

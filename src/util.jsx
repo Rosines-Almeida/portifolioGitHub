@@ -10,6 +10,11 @@ const formatarData = (props)=>{
 }
 
 }
+const validarDados =(dado)=>{
 
-export default formatarData;
+    if(dado ===0| undefined | null){
+        return true
+    }
+}
+export  {formatarData,validarDados} ;
  

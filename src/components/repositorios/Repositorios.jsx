@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import api from "../../services/api"
 import "./Repositorios.css"
-import formatarData from "../../util"
+import {formatarData} from "../../util"
 import Header from "../header/Header"
  
 export default class Repositorios extends Component {

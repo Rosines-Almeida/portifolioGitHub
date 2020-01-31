@@ -12,7 +12,8 @@ import "./main.css"
     }
      notificar= async (userSearch) =>{
         try {
-          const response = await api.get(`/rosines-almeida`);
+          const response = await api.get(`/${userSearch}`);
+        //   const response = await api.get(`/rosines-almeida`);
           this.setState({userGit: response.data})
         } catch (error) {
             this.setState({erro: true})

@@ -30,3 +30,25 @@ display: block
     /* border: 1px solid rgb(226, 114, 34);; */
      
 }
+
+ .disable{
+   border: none;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+
+button{
+    background-color: 
+        rgb(216, 106, 101);
+        border: none
+
+}
+button a:link, a:visited {
+    color: white;
+    text-decoration: none;  
+  }
+  
+
+

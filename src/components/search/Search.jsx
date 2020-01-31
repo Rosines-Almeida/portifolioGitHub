@@ -22,11 +22,7 @@ export default class Search extends Component {
     <button className="btn btn-outline-secondary" type="button" id="button-addon2" onClick={() => this.state.props.notificar(this.state.user)}>Botão</button>
   </div>
 </div>
-            {/* <label>
-            Pesquisar usuário:
-            <input type="search" onChange={this.updateUser}/> <button  onClick={() => this.state.props.notificar(this.state.user)}>Search</button>
-        
-            </label> */}
+         
             </container>
 
         )
