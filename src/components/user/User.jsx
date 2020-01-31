@@ -12,8 +12,16 @@ const User = (props) =>
 <div>
 {/* bloco img logo */}
     <div  style={{ display: props.user.length === 0 ? "block" : "none" }} > 
-    <div className="d-flex justify-content-center">
-    <img src={Logo2} width="300px" height="300px" className="d-inline-block align-top " alt="" />
+
+    <div className="justify-content-center">
+<div style={{ display: props.erro? "block" : "none" }} >
+    <div class="alert alert-light d-flex justify-content-center" role="alert">
+   Usuário não encontrado. Por favor refaça a busca.
+</div>
+</div>
+      <div className = "d-flex justify-content-center" >
+    <img   src={Logo2} width="300px" height="300px" className="d-inline-block align-top " alt="" />
+    </div>
     </div>
     </div>
 {/* info user */}
