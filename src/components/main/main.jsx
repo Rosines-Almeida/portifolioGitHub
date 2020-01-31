@@ -17,6 +17,7 @@ import "./main.css"
           this.setState({userGit: response.data})
         } catch (error) {
             this.setState({erro: true})
+            this.setState({userGit: []})
           console.log(error.message)
      
         }

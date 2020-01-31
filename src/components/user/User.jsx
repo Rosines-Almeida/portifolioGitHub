@@ -32,7 +32,7 @@ const User = (props) =>
    <div  style={{ display: props.user.length === 0 ? "none" : "block" }}>
      <div className="row d-flex justify-content-center">
 <div className="card-group row col-6 ">
-  <img className="card  img-user" src={props.user.avatar_url} alt="Imagem de capa do card"/>
+  <img className="card  img-user" src={props.user.avatar_url} alt="avatar"/>
     
   
   

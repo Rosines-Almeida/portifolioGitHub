@@ -1,1 +1,5 @@
- 
+ .btn{
+     border: none;
+     background-color: rgb(216, 106, 101);
+     color: white;
+ }
