@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Header from "./components/header/Header"
+import Footer from "./components/footer/Footer"
 import Routes from "./rotas/Routes"
+
 // import Search from "../src/components/search/Search"
 // import User from "../src/components/user/User"
 
 ReactDOM.render(<React.Fragment>
 
 <Routes></Routes>
+<Footer/> 
 </React.Fragment>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

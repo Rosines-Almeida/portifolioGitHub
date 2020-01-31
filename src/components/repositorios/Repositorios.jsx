@@ -27,6 +27,7 @@ export default class Repositorios extends Component {
             <div class="card mt-2 mr-4 ml-4">
             <div class="card-body">
             <h5 ><strong>{repo.name}</strong></h5> 
+            <hr/> 
             <p className="desciption">{repo.description}</p>
             <p><strong>Linguagem: </strong>{repo.language}</p>
             <p><strong>Criado: </strong>{formatarData(repo.created_at)}</p>

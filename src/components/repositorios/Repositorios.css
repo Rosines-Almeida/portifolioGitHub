@@ -1,14 +1,14 @@
 .btn-homepage{
-    background-color: #F2AA7E;
+    background-color: rgb(216, 106, 101);
     border: none;
     color: white;
      
 }
 
-.btn-homepage :hover{
-    background-color: tomato;
+/* .btn-homepage :hover{
+    
     border: none
-}
+} */
 
 .desciption{
     font-size: 16px;
@@ -16,4 +16,7 @@
 
 p{
     margin: 0em;
+}
+.card{
+    border-radius: 15px;
 }
