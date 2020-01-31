@@ -26,7 +26,7 @@ import "./main.css"
         return (
             <div  className="search-component">
                 <Search  className="search-component" notificar = {this.notificar}></Search>
-               <User className="mt-5 mb-5"  user={this.state.userGit} />
+               <User className="mt-5 mb-5 d-flex-justify-content-center"  user={this.state.userGit} />
             </div>
         )
     }

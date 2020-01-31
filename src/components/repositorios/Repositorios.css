@@ -1,0 +1,19 @@
+.btn-homepage{
+    background-color: #F2AA7E;
+    border: none;
+    color: white;
+     
+}
+
+.btn-homepage :hover{
+    background-color: tomato;
+    border: none
+}
+
+.desciption{
+    font-size: 16px;
+}
+
+p{
+    margin: 0em;
+}
