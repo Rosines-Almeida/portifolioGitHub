@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import api from "../../services/api"
 import "./Repositorios.css"
 import formatarData from "../../util"
+import Header from "../header/Header"
  
 export default class Repositorios extends Component {
     state={
@@ -21,7 +22,7 @@ export default class Repositorios extends Component {
            return(
                
         <div>
-      
+          <Header/>
             {this.state.repositorios.map(repo=>
             <div class="card mt-2 mr-4 ml-4">
             <div class="card-body">
