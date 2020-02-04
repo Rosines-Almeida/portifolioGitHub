@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portifolioGitHub/static/css/main.f693ba2c.chunk.css",
+    "main.js": "/portifolioGitHub/static/js/main.4a13afaf.chunk.js",
+    "main.js.map": "/portifolioGitHub/static/js/main.4a13afaf.chunk.js.map",
+    "runtime-main.js": "/portifolioGitHub/static/js/runtime-main.b3405d85.js",
+    "runtime-main.js.map": "/portifolioGitHub/static/js/runtime-main.b3405d85.js.map",
+    "static/js/2.83eb9d53.chunk.js": "/portifolioGitHub/static/js/2.83eb9d53.chunk.js",
+    "static/js/2.83eb9d53.chunk.js.map": "/portifolioGitHub/static/js/2.83eb9d53.chunk.js.map",
+    "index.html": "/portifolioGitHub/index.html",
+    "precache-manifest.6a1c2cc9d7f7f6ecd98fc1891a5c699b.js": "/portifolioGitHub/precache-manifest.6a1c2cc9d7f7f6ecd98fc1891a5c699b.js",
+    "service-worker.js": "/portifolioGitHub/service-worker.js",
+    "static/css/main.f693ba2c.chunk.css.map": "/portifolioGitHub/static/css/main.f693ba2c.chunk.css.map",
+    "static/js/2.83eb9d53.chunk.js.LICENSE": "/portifolioGitHub/static/js/2.83eb9d53.chunk.js.LICENSE",
+    "static/media/Octocat.png": "/portifolioGitHub/static/media/Octocat.0ba2aa20.png",
+    "static/media/github-logo-icon.png": "/portifolioGitHub/static/media/github-logo-icon.5c3ef0fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3405d85.js",
+    "static/js/2.83eb9d53.chunk.js",
+    "static/css/main.f693ba2c.chunk.css",
+    "static/js/main.4a13afaf.chunk.js"
+  ]
+}
